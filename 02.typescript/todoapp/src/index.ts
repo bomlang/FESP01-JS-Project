@@ -4,6 +4,7 @@ const root = document.querySelector("#root");
 
 (async () => {
   // ES2022부터  Top-level await 기능 지원
+  // 테스트
   root!.appendChild(await App());
 })();
 
